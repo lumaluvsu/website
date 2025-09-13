@@ -27,5 +27,17 @@ p{
     width: 30%;
 }
 #uffe{
-    transform: translateY(-1100px) translateX(500px) scale(0.2);
+    width:350px;
+    height:400px;
+    position: absolute;
+    padding-left: 70%;
+}
+#spotify{
+    position: absolute;
+    display: block;
+    padding-left: 10%;
+}
+#fav{
+    position: absolute;
+    transform: scale(.5) translateX(500px) translateY(-40px);
 }
