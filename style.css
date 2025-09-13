@@ -7,18 +7,25 @@ body{
     background-size:100% 100%;
 }
 p{
+    text-align: center; 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:xx-large;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: antiquewhite;
 }
-ul{
-    color: white;
-    font-size: larger;
+#points{
+    text-align: center;
     transform: translateY(-25px);
-    li:nth-child(1) {font-family: 'Courier New', Courier, monospace;}
-    li:nth-child(2) {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-    li:nth-child(3) {font-family:Verdana, Geneva, Tahoma, sans-serif;}
+    transform: translateX(-120px);
+    color: white;
+    p:nth-child(1) {font-family: 'Courier New', Courier, monospace;font-size: large;}
+    p:nth-child(2) {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: large;}
+    p:nth-child(3) {font-family:Verdana, Geneva, Tahoma, sans-serif;font-size: large;}
 }
 #cooltext{
+    transform: translateY(-150px) translateX(80px) scaleY(1.5);
+    width: 30%;
+}
+#uffe{
+    transform: translateY(-1100px) translateX(500px) scale(0.2);
 }
