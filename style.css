@@ -27,10 +27,11 @@ p{
     width: 30%;
 }
 #uffe{
-    width:350px;
-    height:400px;
+    max-width: 20%;
+
     position: absolute;
-    padding-left: 70%;
+    float: right;
+    transform: translateX(20%);
 }
 #spotify{
     position: absolute;
